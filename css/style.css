@@ -1,0 +1,176 @@
+/* style css */
+* { margin: 0; padding: 0;}
+a {text-decoration: none;}
+ul, ol { list-style-type: none;}
+html, body { height: 100%;}
+body {
+    color: #1b1b1b;
+    font-family: 'Noto Serif KR', serif;
+}
+.img_responsive{
+    width: 100%;
+}
+
+#main_header {
+    position: relative;
+    height: 100%;
+    /* background: #ccc; */
+    text-align: center;
+}
+#main_header > h1 {
+    font-size: 26px;
+    position: absolute;
+    left: 0px; top: 30px;
+    text-align: center;
+    line-height: 1.5em;
+    color: #e2aaa5
+}
+
+#main_header > .info {
+    padding-top: 20px;
+    padding-right: 0px;
+    margin-bottom: 20px;
+}
+#main_header > .info > time {
+    font-size: 44px;
+    display: block;
+    border-bottom: 2px solid hsl(5, 51%, 77%);
+    /* outline: 1px solid red; */
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    margin-left: 165px;
+    margin-right: 165px;
+    color: #363636;
+}
+#main_header .name {
+    font-size: 16px;
+    line-height: 25px;
+    color: #363636;
+}
+#main_visual {
+    position: relative;
+    background-image: url("../image/photo_main@2x.jpg");
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    color: #fff;
+}
+/* 소개글 */
+#intro {
+    text-align: center;
+    padding: 100px 0;
+    line-height: 2em;
+}
+#intro > h2 {
+    font-size: 14px;
+    line-height: 28px;
+    color: #e2aaa5;
+    border-top: 1px solid #e2aaa5;
+    border-bottom: 1px solid #e2aaa5;
+    padding: 20px 0;
+    margin: 0 50px; /* 선 수평 여백 */
+}
+#intro > p {
+    font-size: 12px;
+    line-height: 24px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#intro > .intro_name {
+    font-size: 12px;
+}
+#intro > .intro_name > span {
+    font-size: 16px;
+    font-weight: bold;
+}
+/* 상하 40px 여백 */
+#intro address {
+    padding: 40px 0;
+    padding-bottom: 30px;
+    font-size: 12px;
+    font-style: normal;
+    line-height: 24px;
+}
+
+/* 포토 섹션(갤러리) */
+#photo > .photo_list > li {
+    margin-bottom: 24px;
+}
+#photo > .photo_list > li:last-child {
+    margin-bottom: 0px;
+}
+#photo > .photo_list > li:nth-child(2) {
+    overflow: hidden;
+    /* outline: 1px solid red; */
+}
+#photo > .photo_list > li:nth-child(2) > div {
+    float: left;
+    width: 50%;
+    /* outline: 1px solid green; */
+}
+/* 우측 칼럼 글자 수직 정렬 */
+#photo > .photo_list > li:nth-child(2) > .right {
+    color: #e2aaa5;
+    text-align: center;
+    position: relative;
+    height: 100%;
+}
+#photo > .photo_list > li:nth-child(2) > .right > h3 {
+    position: absolute;
+    width: 100%;
+    padding-top: 50%;
+}
+/* 초대글 */
+#invitation {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+#invitation h2 {
+    font-size: 22px;
+    line-height: 44px;
+}
+#invitation time {
+    font-size: 14px;
+    line-height: 36px;
+}
+#invitation > .address {
+    font-size: 14px;
+    line-height: 28px;
+    color: #e2aaa5;
+    border-top: 1px solid #e2aaa5;
+    border-bottom: 1px solid #e2aaa5;
+    padding: 20px 0;
+    margin: 0 50px; /* 선 수평 여백 */
+    margin-top: 40px;
+}
+footer {
+    background: #e2aaa5;
+    color: white;
+    font-size: 12px;
+    text-align: left;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+footer .transport {
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+footer .transport .subway {
+    padding-bottom: 30px;
+}
+footer .transport h3 {
+    font-weight: bold;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #fff;
+}
+footer .transport ul {
+    padding-top: 20px;
+}
+footer .transport li:last-child {
+    margin-bottom: 20px;
+}
